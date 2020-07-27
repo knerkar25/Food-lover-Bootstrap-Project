@@ -1,0 +1,131 @@
+body
+{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.btn 
+{
+ background-color: #ff9900;
+margin-top:15%;
+color:rgba(0,0,0,0.8);
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#foot a
+{
+	color:white;
+	padding-top:2%;
+	position: relative;
+	margin-left:2%;
+	 color: #f2f2f2;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration: none;
+	 font-size: 17px;
+}
+#foot a:hover {
+  color: #ff9900;
+}
+#foot1 a
+{
+	color:white;
+	padding-top:5%;
+	position: relative;
+	margin-left:2%;
+	margin-top:3%;
+	 color: #f2f2f2;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration: none;
+	 font-size: 25px;
+}
+#foot1 a:hover {
+  color: #ff9900;
+}
+#bx
+{
+	background-color:rgba(0,0,0,0.85);
+	width: 45%;
+	height:fit-content;
+	border: 5px solid #fed330;
+	padding: 50px;
+	margin: 20px;
+	text-align:center;
+	margin-top:10%;
+	margin-bottom:10%;
+	margin-left:25%;
+}
+.pulldown
+{
+margin-top:10%;
+margin-bottom:10%;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+  padding-top:2%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #ff9900;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+  margin-right:8%;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  
+  #bx
+{
+	background-color:rgba(0,0,0,0.85);
+	width: fit-content;
+	height:fit-content;
+	border: 5px solid #fed330;
+	padding: 50px;
+	margin: 20px;
+	text-align:center;
+	margin-top:10%;
+	margin-bottom:10%;
+	margin-left:25%;
+
+}
+}
